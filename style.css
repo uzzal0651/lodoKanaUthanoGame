@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./images/lodo_snake_img.jpg) no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#dice-status {
+  color: #e1e1e1;
+}
+#btn-play {
+  display: block;
+  border: 0px;
+  border-radius: 4px;
+  background: #c8bdbd;
+  margin-top: 48px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: white;
+  padding: 8px 32px;
+  box-shadow: 0px 0px 6.79px 0.21px rgba(0, 0, 0, 0.35);
+  border: 1px solid #383838;
+}
